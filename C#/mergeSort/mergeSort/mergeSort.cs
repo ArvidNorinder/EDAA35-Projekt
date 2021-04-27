@@ -94,7 +94,7 @@ public class Mergesort
         }
     }
 
-    public static void main(string[] args)
+    public static void Main(string[] args)
     {
         runSort(int.Parse(args[0]), ".\\" + args[1], ".\\" + args[2]);
     }
