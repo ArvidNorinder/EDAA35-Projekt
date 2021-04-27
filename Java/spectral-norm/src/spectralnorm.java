@@ -13,12 +13,10 @@ public class spectralnorm {
 	private static final int NCPU = Runtime.getRuntime().availableProcessors();
 
 	public static void main(String[] args) throws InterruptedException {
-		String utfil = "spectralnorm-data.txt";
+		String utfil = args.length > 0 ? args[1] : "data.txt";
 		int reps = args.length > 0 ? Integer.parseInt(args[0]) : 600;
 		try {
 			BufferedWriter bw = new BufferedWriter(new FileWriter(utfil));
-			bw.write("Löpnummer,Tid(mikrosekunder)");
-			bw.newLine();
 
 			for (int iteration = 0; iteration < reps; iteration++) {
 				long t0 = System.nanoTime()/1000;
@@ -40,7 +38,7 @@ public class spectralnorm {
 				}
 				var value = Math.sqrt(vBv / vv);
 				long t1 = System.nanoTime()/1000;
-				bw.write((iteration + 1) + "," + (t1 - t0));
+				bw.write(Long.toString(t1 - t0));
 				bw.newLine();
 			}
 			bw.close();

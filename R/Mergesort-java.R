@@ -1,5 +1,5 @@
-setwd("C:\\Users\\Arvid\\Desktop\\School\\Utvärdering av programvarosystem\\EDAA35-Projekt\\C#\\spectral-norm\\spectral-norm\\")
-file <- ".\\.data.txt"
+setwd("C:\\Users\\Arvid\\Desktop\\School\\Utvärdering av programvarosystem\\EDAA35-Projekt\\Java\\Mergesort\\")
+file <- "data.txt"
 means <- c()
 
 plotresult <- function(file, start = 1) {
@@ -17,7 +17,7 @@ calculatemean <- function(file, start = 1) {
 
 
 for(i in 1:10) {
-	system("dotnet run 600 data.txt")
+	system("java -cp bin Mergesort 600 indata.txt data.txt")
 	means <- c(means, calculatemean(file, 150))
 }
 

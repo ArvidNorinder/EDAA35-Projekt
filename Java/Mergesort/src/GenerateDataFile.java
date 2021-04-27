@@ -6,7 +6,7 @@ public class GenerateDataFile {
 	public static void main(String[] args) {
 		int amountOfNumbers = 1000;
 		int rangeOfNumbers = 10000;
-		String fileName = "Data.txt";
+		String fileName = "indata.txt";
 		Random rand = new Random();
 		try {
 			BufferedWriter bw = new BufferedWriter(new FileWriter(fileName));
