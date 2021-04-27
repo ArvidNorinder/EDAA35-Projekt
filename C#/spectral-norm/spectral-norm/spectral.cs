@@ -23,7 +23,7 @@ namespace SpectralNorm
 
             String[] times = new String[int.Parse(args[0])];
 
-            for(int x = 0; x < 600; x++)
+            for(int x = 0; x < int.Parse(args[0]); x++)
             {
                 long start = 1000L * Stopwatch.GetTimestamp();
 
