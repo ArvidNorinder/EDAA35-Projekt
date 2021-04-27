@@ -76,14 +76,13 @@ public class Mergesort{
             for(int i = 0; i < tmp.size(); i++){
                 list.set(i + a, tmp.get(i));
             }
-
         }
     }
 
     public static void main(String[] args){
         String infil = "Data.txt";
         String utfil = "Utfil.txt";
-        String pathToFiles = System.getProperty("user.home") + "/EDAA35-Projekt/Java/main/";	//ersätt sista strängen med vägen till java-projektet
+        String pathToFiles = System.getProperty("user.home") + "/EDAA35-Projekt/Java/Mergesort/";	//ersätt sista strängen med vägen till java-projektet
         int repetitions = 600;
         System.out.println(pathToFiles);
         runSort(repetitions, pathToFiles + infil, pathToFiles + utfil);
