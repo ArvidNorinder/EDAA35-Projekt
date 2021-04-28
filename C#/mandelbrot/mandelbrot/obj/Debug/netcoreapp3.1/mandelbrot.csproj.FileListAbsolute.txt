@@ -1,0 +1,13 @@
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mandelbrot\mandelbrot\bin\Debug\netcoreapp3.1\mandelbrot.exe
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mandelbrot\mandelbrot\bin\Debug\netcoreapp3.1\mandelbrot.deps.json
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mandelbrot\mandelbrot\bin\Debug\netcoreapp3.1\mandelbrot.runtimeconfig.json
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mandelbrot\mandelbrot\bin\Debug\netcoreapp3.1\mandelbrot.runtimeconfig.dev.json
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mandelbrot\mandelbrot\bin\Debug\netcoreapp3.1\mandelbrot.dll
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mandelbrot\mandelbrot\bin\Debug\netcoreapp3.1\mandelbrot.pdb
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mandelbrot\mandelbrot\obj\Debug\netcoreapp3.1\mandelbrot.csprojAssemblyReference.cache
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mandelbrot\mandelbrot\obj\Debug\netcoreapp3.1\mandelbrot.AssemblyInfoInputs.cache
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mandelbrot\mandelbrot\obj\Debug\netcoreapp3.1\mandelbrot.AssemblyInfo.cs
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mandelbrot\mandelbrot\obj\Debug\netcoreapp3.1\mandelbrot.csproj.CoreCompileInputs.cache
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mandelbrot\mandelbrot\obj\Debug\netcoreapp3.1\mandelbrot.dll
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mandelbrot\mandelbrot\obj\Debug\netcoreapp3.1\mandelbrot.pdb
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mandelbrot\mandelbrot\obj\Debug\netcoreapp3.1\mandelbrot.genruntimeconfig.cache

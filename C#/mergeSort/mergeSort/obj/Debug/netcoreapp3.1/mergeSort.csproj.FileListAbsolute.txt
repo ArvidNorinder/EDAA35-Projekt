@@ -1,0 +1,13 @@
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mergeSort\mergeSort\obj\Debug\netcoreapp3.1\mergeSort.csprojAssemblyReference.cache
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mergeSort\mergeSort\obj\Debug\netcoreapp3.1\mergeSort.AssemblyInfoInputs.cache
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mergeSort\mergeSort\obj\Debug\netcoreapp3.1\mergeSort.AssemblyInfo.cs
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mergeSort\mergeSort\obj\Debug\netcoreapp3.1\mergeSort.csproj.CoreCompileInputs.cache
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mergeSort\mergeSort\bin\Debug\netcoreapp3.1\mergeSort.exe
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mergeSort\mergeSort\bin\Debug\netcoreapp3.1\mergeSort.deps.json
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mergeSort\mergeSort\bin\Debug\netcoreapp3.1\mergeSort.runtimeconfig.json
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mergeSort\mergeSort\bin\Debug\netcoreapp3.1\mergeSort.runtimeconfig.dev.json
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mergeSort\mergeSort\bin\Debug\netcoreapp3.1\mergeSort.dll
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mergeSort\mergeSort\bin\Debug\netcoreapp3.1\mergeSort.pdb
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mergeSort\mergeSort\obj\Debug\netcoreapp3.1\mergeSort.dll
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mergeSort\mergeSort\obj\Debug\netcoreapp3.1\mergeSort.pdb
+C:\Users\Arvid\Desktop\School\Utvärdering av programvarosystem\EDAA35-Projekt\C#\mergeSort\mergeSort\obj\Debug\netcoreapp3.1\mergeSort.genruntimeconfig.cache

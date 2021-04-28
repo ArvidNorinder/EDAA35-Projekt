@@ -1,4 +1,4 @@
-setwd("C:\\Users\\Arvid\\Desktop\\School\\Utvärdering av programvarosystem\\EDAA35-Projekt\\Java\\mandelbrot\\")
+setwd("C:\\Users\\Arvid\\Desktop\\School\\Utvärdering av programvarosystem\\EDAA35-Projekt\\Java\\spectral-norm\\")
 file <- "data.txt"
 means <- c()
 
@@ -17,7 +17,7 @@ calculatemean <- function(file, start = 1) {
 
 
 for(i in 1:10) {
-	system("java -cp bin mandelbrot.mandelbrot 600 data.txt")
+	system("java -cp bin spectralnorm 600 data.txt")
 	means <- c(means, calculatemean(file, 150))
 }
 
