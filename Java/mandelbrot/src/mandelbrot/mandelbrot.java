@@ -63,7 +63,7 @@ public final class mandelbrot {
 	}
 
 	public static void main(String[] args) throws Exception {
-		String utfil = "mandelbrot-data.txt";
+		String utfil = args.length > 0 ? args[1] : "data.txt";
 		int reps = args.length > 0 ? Integer.parseInt(args[0]) : 600;
 
 		try {

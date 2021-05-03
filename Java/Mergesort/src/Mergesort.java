@@ -28,16 +28,14 @@ public class Mergesort{
             }
 
             BufferedWriter bw = new BufferedWriter(new FileWriter(utfil));
-            bw.write("Löpnummer,Tid(ns)");
-            bw.newLine();
 
             for(int i = 0; i < n; i++){
                 List<Integer> list = copyArray(ogList);
-                long t0 = System.nanoTime();
+                long t0 = System.nanoTime()/1000;
                 merge(0, list.size() - 1, list);
-                long t1 = System.nanoTime();
+                long t1 = System.nanoTime()/1000;
                 long time = t1 - t0;
-                bw.write((i + 1) + "," + time);
+                bw.write(Long.toString(time));
                 bw.newLine();
             }
 
@@ -80,11 +78,6 @@ public class Mergesort{
     }
 
     public static void main(String[] args){
-        String infil = "Data.txt";
-        String utfil = "Utfil.txt";
-        String pathToFiles = System.getProperty("user.home") + "/EDAA35-Projekt/Java/Mergesort/";	//ersätt sista strängen med vägen till java-projektet
-        int repetitions = 600;
-        System.out.println(pathToFiles);
-        runSort(repetitions, pathToFiles + infil, pathToFiles + utfil);
+        runSort(Integer.parseInt(args[0]), args[1] , args[2]);
     }
 }
