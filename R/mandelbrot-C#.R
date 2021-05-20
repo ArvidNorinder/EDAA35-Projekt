@@ -18,7 +18,7 @@ calculatemean <- function(file, start = 1) {
 
 for(i in 1:10) {
 	system("dotnet run 600 data.txt")
-	means <- c(means, calculatemean(file, 150))
+	means <- c(means, calculatemean(file))
 }
 
 #plottar efter sista loopen ovan

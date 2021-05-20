@@ -1,3 +1,4 @@
+
 setwd("C:\\Users\\Arvid\\Desktop\\School\\Utvärdering av programvarosystem\\EDAA35-Projekt\\C#\\spectral-norm\\spectral-norm\\")
 file <- ".\\.data.txt"
 means <- c()
