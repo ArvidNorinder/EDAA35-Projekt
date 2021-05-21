@@ -277,7 +277,7 @@ public class MandelBrot
 
             times[x] = micro.ToString();
         }
-        File.WriteAllLines("." + args[1], times);
+        File.WriteAllLines(args[1], times);
     }
 
 }

@@ -1,4 +1,4 @@
-package mandelbrot;
+
 /* The Computer Language Benchmarks Game
  * https://salsa.debian.org/benchmarksgame-team/benchmarksgame/
  * 
@@ -72,8 +72,8 @@ public final class mandelbrot {
 
 			for(int iteration = 0; iteration < reps; iteration++) {
 				long t0 = System.nanoTime()/1000;
-				
-				Crb = new double[N + 7];
+
+			Crb = new double[N + 7];
 			Cib = new double[N + 7];
 			double invN = 2.0 / N;
 			for (int i = 0; i < N; i++) {
@@ -82,6 +82,7 @@ public final class mandelbrot {
 			}
 			yCt = new AtomicInteger();
 			out = new byte[N][(N + 7) / 8];
+
 
 			Thread[] pool = new Thread[2 * Runtime.getRuntime().availableProcessors()];
 			for (int i = 0; i < pool.length; i++)
@@ -92,19 +93,28 @@ public final class mandelbrot {
 							putLine(y, out[y]);
 					}
 				};
+
+
 			for (Thread t : pool)
 				t.start();
+				//System.out.println("Gets this far");
+
 			for (Thread t : pool)
 				t.join();
 
+
+
 			OutputStream stream = new BufferedOutputStream(System.out);
 			stream.write(("P4\n" + N + " " + N + "\n").getBytes());
+
+
 			for (int i = 0; i < N; i++)
 				stream.write(out[i]);
 			stream.close();
-			long t1 = System.nanoTime()/1000;
-			bw.write(Long.toString(t1-t0));
-			bw.newLine();
+
+				long t1 = System.nanoTime()/1000;
+				bw.write(Long.toString(t1-t0));
+				bw.newLine();
 			}
 			
 			

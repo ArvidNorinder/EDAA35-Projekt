@@ -1,6 +1,7 @@
+source("https://fileadmin.cs.lth.se/cs/Education/EDAA35/R_resources.R")
 
 setwd("C:\\Users\\Arvid\\Desktop\\School\\Utvärdering av programvarosystem\\EDAA35-Projekt\\C#\\spectral-norm\\spectral-norm\\")
-file <- ".\\.data.txt"
+file <- ".data.txt"
 means <- c()
 
 plotresult <- function(file, start = 1) {
@@ -30,3 +31,4 @@ plotresult(file)
 #print(means)
 #avkommentera för att få genomsnitt av genomsnitten (mest tillförlitliga värdet)
 print(mean(means))
+print(confidenceInterval(means))

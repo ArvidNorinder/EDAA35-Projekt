@@ -1,6 +1,7 @@
 source("https://fileadmin.cs.lth.se/cs/Education/EDAA35/R_resources.R")
-setwd("C:\\Users\\Arvid\\Desktop\\School\\Utvärdering av programvarosystem\\EDAA35-Projekt\\C#\\mandelbrot\\mandelbrot")
-file <- "data.txt"
+
+setwd("C:\\Users\\Arvid\\Desktop\\School\\Utvärdering av programvarosystem\\EDAA35-Projekt\\Java\\mandelbrot\\")
+
 means <- c()
 
 plotresult <- function(file, start = 1) {
@@ -16,23 +17,12 @@ calculatemean <- function(file, start = 1) {
     mean(eqdata[1])
 }
 
-
 for(i in 1:10) {
-	system("dotnet run 600 data.txt")
-	means <- c(means, calculatemean(file, 30))
+	means <- c(means, calculatemean(paste("data", i, ".txt", sep = ""), 30))
 }
 
-
-
-
-
-#plottar efter sista loopen ovan
-plotresult(file)
-
-#avkommentera nedan för att få allt efter körning 150
-#plotresult(file, 30)
-
-#print(means)
+plotresult("data10.txt")
 
 print(mean(means))
+
 print(confidenceInterval(means))

@@ -1,3 +1,5 @@
+source("https://fileadmin.cs.lth.se/cs/Education/EDAA35/R_resources.R")
+
 setwd("C:\\Users\\Arvid\\Desktop\\School\\Utvärdering av programvarosystem\\EDAA35-Projekt\\C#\\mergeSort\\mergeSort")
 file <- "utdata.txt"
 means <- c()
@@ -18,7 +20,7 @@ calculatemean <- function(file, start = 1) {
 
 for(i in 1:10) {
 	system("dotnet run 600 in-data.txt utdata.txt")
-	means <- c(means, calculatemean(file, 150))
+	means <- c(means, calculatemean(file, 50))
 }
 
 #plottar efter sista loopen ovan
@@ -30,3 +32,4 @@ plotresult(file)
 #print(means)
 
 print(mean(means))
+print(confidenceInterval(means))

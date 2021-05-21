@@ -1,3 +1,5 @@
+source("https://fileadmin.cs.lth.se/cs/Education/EDAA35/R_resources.R")
+
 setwd("C:\\Users\\Arvid\\Desktop\\School\\Utvärdering av programvarosystem\\EDAA35-Projekt\\Java\\Mergesort\\")
 file <- "data.txt"
 means <- c()
@@ -18,7 +20,7 @@ calculatemean <- function(file, start = 1) {
 
 for(i in 1:10) {
 	system("java -cp bin Mergesort 600 indata.txt data.txt")
-	means <- c(means, calculatemean(file, 150))
+	means <- c(means, calculatemean(file, 300))
 }
 
 #plottar efter sista loopen ovan
@@ -29,3 +31,4 @@ plotresult(file)
 #print(means)
 #avkommentera för att få genomsnitt av genomsnitten (mest tillförlitliga värdet)
 print(mean(means))
+print(confidenceInterval(means))
